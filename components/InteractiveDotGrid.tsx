@@ -33,7 +33,7 @@ export default function InteractiveDotGrid() {
     const radius = 1.5; // Size of each dot
 
     // Mouse tracking - defaulting off-screen
-    let mouse = { x: -1000, y: -1000 };
+    const mouse = { x: -1000, y: -1000 };
     
     const handleMouseMove = (e: MouseEvent) => {
       mouse.x = e.clientX;
