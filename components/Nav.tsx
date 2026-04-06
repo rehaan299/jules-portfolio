@@ -26,9 +26,8 @@ export default function Nav() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 ${
-        scrolled ? "bg-black/80 backdrop-blur-md py-4" : "bg-transparent py-6"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 ${scrolled ? "bg-black/80 backdrop-blur-md py-4" : "bg-transparent py-6"
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <Link href="/" className="text-xl font-medium tracking-tight group">
@@ -52,14 +51,14 @@ export default function Nav() {
           <div className="h-4 w-[1px] bg-white/20 mx-2" />
           <div className="flex items-center gap-4">
             <Link
-              href="https://github.com/rehaansharma" // TODO: Rehaan to provide GitHub link
+              href="https://github.com/rehaan299"
               target="_blank"
               className="text-sm text-accent-muted hover:text-white transition-colors"
             >
               GitHub
             </Link>
             <Link
-              href="https://linkedin.com/in/rehaansharma" // TODO: Rehaan to provide LinkedIn link
+              href="https://www.linkedin.com/in/rehaan-sharma-4b304b250/"
               target="_blank"
               className="text-sm text-accent-muted hover:text-white transition-colors"
             >
@@ -102,13 +101,13 @@ export default function Nav() {
               <div className="h-[1px] w-full bg-white/10" />
               <div className="flex flex-col gap-4">
                 <Link
-                  href="https://github.com/rehaansharma" // TODO: GitHub
+                  href="https://github.com/rehaan299"
                   className="text-accent-muted hover:text-white"
                 >
                   GitHub
                 </Link>
                 <Link
-                  href="https://linkedin.com/in/rehaansharma" // TODO: LinkedIn
+                  href="https://www.linkedin.com/in/rehaan-sharma-4b304b250/"
                   className="text-accent-muted hover:text-white"
                 >
                   LinkedIn

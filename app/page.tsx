@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
+import InteractiveDotGrid from "@/components/InteractiveDotGrid";
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import ProjectGrid from "@/components/ProjectGrid";
@@ -31,6 +32,9 @@ export default function Home() {
             <Contact />
           </div>
         </div>
+
+        {/* Interactive Dot Grid Background */}
+        <InteractiveDotGrid />
 
         {/* Global Grainy Texture Overlay (on top of everything) */}
         <div className="fixed inset-0 pointer-events-none z-[9999] bg-noise-pattern opacity-[0.03]" />

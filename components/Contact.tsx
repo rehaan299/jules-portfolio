@@ -22,21 +22,21 @@ export default function Contact() {
           </h2>
           <div className="flex flex-wrap justify-center gap-6">
             <Link
-              href="mailto:rehaan@example.com" // TODO: Rehaan to provide email
+              href="mailto:rehaan@ualberta.ca"
               className="group flex items-center gap-2 text-lg text-accent-muted hover:text-white transition-colors"
             >
               Email
               <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
             </Link>
             <Link
-              href="https://linkedin.com/in/rehaansharma" // TODO: Rehaan to provide LinkedIn
+              href="https://www.linkedin.com/in/rehaan-sharma-4b304b250/"
               className="group flex items-center gap-2 text-lg text-accent-muted hover:text-white transition-colors"
             >
               LinkedIn
               <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
             </Link>
             <Link
-              href="https://github.com/rehaansharma" // TODO: Rehaan to provide GitHub
+              href="https://github.com/rehaan299"
               className="group flex items-center gap-2 text-lg text-accent-muted hover:text-white transition-colors"
             >
               GitHub
@@ -47,7 +47,7 @@ export default function Contact() {
 
         <div className="flex flex-col md:flex-row justify-between items-center pt-12 border-t border-white/5 text-white/20 text-xs tracking-widest uppercase">
           <span>&copy; {currentYear} Rehaan Sharma</span>
-          <span className="mt-4 md:mt-0 font-medium">Design by AI Specialized Engineer</span>
+          <span className="mt-4 md:mt-0 font-medium">Designed & Developed by Jules</span>
         </div>
       </div>
     </footer>

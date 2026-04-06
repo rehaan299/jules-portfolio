@@ -1,5 +1,5 @@
 export interface Project {
-  // TODO: Rehaan to provide actual links
+
   id: string;
   title: string;
   description: string;
@@ -14,7 +14,7 @@ export const projects: Project[] = [
     description:
       "Autonomous AI agent that mimics a claims analyst — reads emails, extracts data from documents, reverse-geocodes addresses, validates records, logs to BigQuery, and sends follow-up reminders. Cut processing time from 13 days to under 24 hours. Built at City of Edmonton.",
     tech: ["Python", "Google ADK", "Vertex AI", "BigQuery", "Gmail API"],
-    link: "#",
+    link: "/restricted",
   },
   {
     id: "taskcard",
@@ -22,7 +22,7 @@ export const projects: Project[] = [
     description:
       "Full-stack timesheet web app built, deployed, and maintained solo. Used daily by 5 teams and 1,000+ City of Edmonton employees. Handles time entry, multi-stage approval flows, automated PDF generation, and structured BigQuery storage.",
     tech: ["Next.js", "TypeScript", "GCP Cloud Run", "BigQuery", "TailwindCSS"],
-    link: "#",
+    link: "/restricted",
   },
   {
     id: "casecobra",
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     description:
       "Android event lottery app with fair entrant sampling, Google Maps waitlist visualization, Firebase real-time sync, and multi-role organizer/admin flows. CMPUT 301 group project at University of Alberta.",
     tech: ["Java", "Firebase", "Google Maps API", "Android SDK"],
-    link: "#",
+    link: "/restricted",
   },
   {
     id: "snowops",
