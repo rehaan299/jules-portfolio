@@ -5,15 +5,19 @@ import { motion } from "framer-motion";
 const skills = [
   {
     category: "Languages",
-    items: ["TypeScript", "Python", "Java", "C/C++", "SQL", "JavaScript"],
+    items: ["Python", "TypeScript", "JavaScript", "Java", "SQL", "SQLX", "C/C++"],
   },
   {
-    category: "Frameworks",
-    items: ["Next.js", "React", "Node.js", "Tailwind CSS", "Framer Motion"],
+    category: "Frameworks & Tools",
+    items: ["Next.js", "React", "Node.js", "TailwindCSS", "Google ADK", "Android SDK"],
   },
   {
-    category: "Tools & Cloud",
-    items: ["Google Cloud", "Firebase", "Git", "Docker", "Vercel", "BigQuery"],
+    category: "Data & Cloud",
+    items: ["BigQuery", "GCP Cloud Run", "Dataform", "Vertex AI", "Firebase", "Tableau", "Databricks"],
+  },
+  {
+    category: "Other",
+    items: ["Google Apps Script", "Linux/Unix", "Grafana", "Docker", "Git", "Figma"],
   },
 ];
 
@@ -34,13 +38,13 @@ export default function About() {
           </h2>
           <div className="space-y-6 text-lg text-accent-muted leading-relaxed font-light">
             <p>
-              I&apos;m a Computing Science student at the University of Alberta, specializing in Artificial Intelligence. Currently, I&apos;m exploring the intersection of agentic workflows and production software.
+              I&apos;m a final-year Computing Science student at the University of Alberta, specializing in Artificial Intelligence. I&apos;ve spent the last 16+ months building production systems at the City of Edmonton — tools that real teams use every day.
             </p>
             <p>
-              My work focuses on building systems that don&apos;t just process data, but think and act autonomously to solve complex problems. From optimizing claims processing to engineering internal enterprise tools, I prioritize efficiency and scale.
+              I&apos;m most drawn to agentic AI engineering and environments with creative freedom. I&apos;ve built autonomous pipelines that actually get deployed, full-stack apps used by thousands of employees, and data infrastructure that powers leadership decisions.
             </p>
             <p>
-              Currently building at the City of Edmonton and preparing for my next chapter as a Technology Analyst intern at Citi.
+              Incoming Technology Analyst at Citi for Summer 2026. Outside of work: cricket and Game of Thrones (four times through).
             </p>
           </div>
         </motion.div>
