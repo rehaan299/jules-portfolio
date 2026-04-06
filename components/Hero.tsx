@@ -38,7 +38,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
           className="text-lg md:text-2xl text-accent-muted max-w-2xl mx-auto mb-12 font-light tracking-wide leading-relaxed"
         >
-          I build things that think.
+          I build things that actually get used.
         </motion.p>
 
         <motion.div
